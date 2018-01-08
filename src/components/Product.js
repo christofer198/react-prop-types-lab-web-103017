@@ -4,9 +4,9 @@ import React from 'react'
 class Product extends React.component {
 
   render(){
-    return {
+    return (
       <div>Product</div>
-    }
+    )
   }
 }
 
