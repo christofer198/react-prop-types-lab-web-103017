@@ -1,4 +1,13 @@
 // Code Product Component Here
 import React from 'react'
 
-class Product extendsReact.component extends Product
+class Product extends React.component {
+
+  render(){
+    return {
+
+    }
+  }
+}
+
+export Product default
