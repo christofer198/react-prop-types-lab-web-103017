@@ -43,5 +43,4 @@ Product.defaultProps = {
   hasWatermark: false
 }
 
-
 export default Product
