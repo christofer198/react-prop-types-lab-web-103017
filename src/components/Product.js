@@ -1,7 +1,7 @@
 // Code Product Component Here
 import React from 'react'
 
-class Product extends React.component {
+class Product extends React.Component {
 
   render(){
     return (
