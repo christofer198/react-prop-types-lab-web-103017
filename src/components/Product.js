@@ -22,7 +22,7 @@ Product.propTypes = {
   weight: (props, propName) => {
     const weight = props[propName]
 
-    if (weight === undefined){
+    if (weight === null){
       return new Error('The `weight` prop is required.');
     }
 
