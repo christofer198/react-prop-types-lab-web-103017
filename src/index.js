@@ -12,7 +12,6 @@ Product.propTypes = {
 
 Product.defaultProps{
   hasWatermark: false,
-
 }
 
 
