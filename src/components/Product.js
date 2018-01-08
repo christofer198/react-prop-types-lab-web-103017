@@ -16,14 +16,14 @@ Product.propTypes = {
   producer: PropTypes.string,
   hasWatermark: PropTypes.bool,
   color: PropTypes.oneOf([
-    'salmon',
+    'white',
     'eggshell-white',
-    'white'
+    'salmon'
   ]).isRequired,
   weight: (props, propName) => {
-    const weight = props[propName]
+    const weight = props[propName];
 
-    if (weight === null){
+    if (weight === undefined) {
       return new Error('The `weight` prop is required.');
     }
 
@@ -36,7 +36,7 @@ Product.propTypes = {
     if (!isValidWeight) {
       return new Error('The `weight` prop should range between 80 and 300.');
     }
-  }
+  },
 }
 
 Product.defaultProps = {
