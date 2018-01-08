@@ -27,7 +27,7 @@ Product.propTypes = {
       return new Error('The `weight` prop is required.');
     }
 
-    if (!isNaN(weight)) {
+    if (isNaN(weight)) {
       return new Error('The `weight` prop is not a number.');
     }
 
