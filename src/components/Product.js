@@ -10,4 +10,4 @@ class Product extends React.component {
   }
 }
 
-export Product default
+export default Product
